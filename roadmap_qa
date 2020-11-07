@@ -1,0 +1,41 @@
+Road map for QA {
+    
+    - understanding SDLC;
+    
+    Levels of Testing {
+        - unit testing;
+        - integration testing;
+        - system testing {
+            - functional;
+            - non-functional;
+        }
+    }
+
+    Bug report {
+        - Test login page;
+        - Write bug report;
+    }
+
+    Test plan {
+        - write tes plan;
+    }
+
+    Test case {
+        - write test cases for login page;
+    }
+
+    Prioritization {
+        - when and how to prioritize tests;
+    }
+
+    Programming {
+        - install ubuntu;
+        - install IDE (vscode);
+        - DB (MongoDB, Casandra, Postgres SQL);
+        - API (gRPC, REST);
+        - API doc (Swagger);
+        - API test (Postman);
+        - Load testing;
+        - Stress testing;
+    }
+}
