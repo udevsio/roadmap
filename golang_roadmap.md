@@ -1,8 +1,13 @@
 #roadmap for gophers
 
 
-1. Install Ubuntu, Linux command line(**Only install Ubuntu. Do not install other Linux distributors**) 
-2. Install Golang with binary file(**don't use apt-get, snap**)
+1. Install Ubuntu, Learn Linux commands(**Only install Ubuntu. Do not install other Linux distributions**) 
+2. Install Golang with binary file(**Do not use apt, snap**)
+   Set environment variables in .bash_profile
+   **For example:**
+   _export GOPATH=$HOME/projects/go
+   export GOROOT=/usr/local/go
+   export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin_
 3. Syntax (**tour.golang.org**)
 4. **_Tasks for syntax_**:
     1. Fibonacci
@@ -32,7 +37,7 @@
     1. Writing unit tests for Contact List & Task List
 9. **_Package managers ( mod )_**
     1. How go packaging works
-10. Tasks
+10. **_Tasks for package management_**
     1. init
     2. install ( add )
     3. update ( update )
@@ -62,6 +67,8 @@
 15. **_gRPC_**
     1. What is the gRPC
     2. Why need gRPC
+    3. Protocol buffers(version3)
+    4. Generate protocol buffers
 16. **_Tasks for gRPC_**
     1. Contact list with gRPC
     2. Task list with gRPC
