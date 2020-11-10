@@ -72,7 +72,7 @@ and more reliably. The term DevOps was formed by combining the
 ## Skills #5 - IaaC
 
 - Virtualization / containerinzation 
-- Factors 
+- 12 factors 
 - Writing dockerfiles 
 - docker images: 
     - build 
