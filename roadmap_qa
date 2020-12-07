@@ -31,12 +31,13 @@ Road map for QA {
     Programming {
         - install ubuntu;
         - install IDE (vscode);
-        - DB (MongoDB, Casandra, Postgres SQL);
         - API (gRPC, REST);
         - API doc (Swagger);
         - API test (Postman);
         - E2E testing (Cypress);
-        - Load testing;
-        - Stress testing;
+        - Load testing (Jmeter);
+        - Stress testing (Jmeter);
+        - DB (MongoDB, Casandra, Postgres SQL);
+
     }
 }
