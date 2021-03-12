@@ -11,11 +11,30 @@ and more reliably. The term DevOps was formed by combining the
 ![devops](devops.png)
 
 
-# The road map to become successful DevOps engineer
+# The roadmap to become Junior DevOps engineer in 
 
-## Skills #1 - Linux basics
 
-- User permissions
+## #1 - Linux basics
+
+### Commands to learn
+
+ You can choose any distro you want. You can try all of them with vmware or virtualbox. Ubuntu or Pop is good option to start with.
+
+- Version Control
+    - git 
+      - git add 
+      - git commit
+      - git pull
+      - git fetch
+      - git branch
+      - git checkout
+      - git push
+      - git remote
+      - git revert
+      - git merge
+- User permissions and management
+    - adduser
+    - usermod
     - chown
     - chmod
 - Process management
@@ -23,24 +42,55 @@ and more reliably. The term DevOps was formed by combining the
     - top / htop
     - netstat
     - lsof
+    - kill
+    - pkill
 - Text manipulation
     - cat
     - grep
-    - vim / nano / emacs
+    - vim (vimtutor at least 5 times)
     - unix pipelining 
     - xarg
     - awk
+- File, Dir management
+    - rm
+    - mv
+    - sed
+    - cp
+    - ranger
 - Disk
     - df
     - du
+    - ncdu
 - Folders
     - /etc
     - /var/log
     - /home
     - $PATH
-    - aliases ( .bashrc )
-    
-## Skills #2 - SSH
+    - aliases ( .zshrc )
+  
+### Shell scripting
+
+- Watch any shell script tutorial on youtube, read articles.
+    - You must know  to write logical functions with above linux commands.
+- Try to do below tasks:
+    - 1
+    - 2
+
+### Books to read
+
+-  Linux Bible last edition
+
+## #2 Scripting language - Python 3
+
+You should understand Python basics, how it works, manipulation with files, dirs, unix commands and etc.
+
+You must read the book in repo - Python for Devops from 
+
+- Complete the tasks below and you can go further, no need to read the whole book in this part of roadmap. Get familiar with Python and continue reading it.
+    - 1.
+    - 2. 
+ 
+## #3 - SSH
 
 - pem files 
 - Generate keys 
