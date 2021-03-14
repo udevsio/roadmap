@@ -44,3 +44,7 @@
 - Load testing (Jmeter) [Learn Jmeter](https://www.youtube.com/watch?v=M-iAXz8vs48&list=PLhW3qG5bs-L-zox1h3eIL7CZh5zJmci4c)
 - Stress testing (Jmeter)
 - DB (MongoDB, Casandra, Postgres SQL)
+
+##### Besides, all of this above, you should totally understand version control system (Git).
+
+##### Good luck!

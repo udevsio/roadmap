@@ -12,33 +12,38 @@
    2. Repo
    3. Remote
 
-3. Learn React (https://reactjs.org/docs/hello-world.html)
+3. [Learn React](https://reactjs.org/docs/hello-world.html)
 
 4. Package manager
 
-   - npm (https://www.npmjs.com/)
+   - [npm](https://www.npmjs.com/)
 
 5. Styling
 
-   - CSS Preprocessor - Sass (https://sass-lang.com/)
-   - CSS Framework - Material UI (https://material-ui.com/)
-   - CSS modules (https://github.com/css-modules/css-modules)
+   - CSS Preprocessor - [Sass](https://sass-lang.com/)
+   - CSS Framework - [Material UI](https://material-ui.com/)
+   - CSS modules - [link](https://github.com/css-modules/css-modules)
 
 6. Routing
 
-   - React-Router (https://reacttraining.com/react-router/)
+   - [React-Router](https://reacttraining.com/react-router/)
 
 7. API client
 
-   - axios (https://github.com/axios/axios)
+   - [axios](https://github.com/axios/axios)
 
 8. Internationalization
 
-   - react-i18next (https://react.i18next.com/)
+   - [react-i18next](https://react.i18next.com/)
 
 9. Server side rendering
 
-   - Next.js (https://nextjs.org/docs/getting-started)
+   - [Next.js](https://nextjs.org/docs/getting-started)
 
 10. Static site generator
-    - Gatsby.js (https://www.gatsbyjs.com/docs/quick-start/)
+
+    - [Gatsby.js](https://www.gatsbyjs.com/docs/quick-start/)
+
+##### Besides, all of this above, you should totally understand version control system (Git).
+
+##### Good luck!
