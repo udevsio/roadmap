@@ -90,7 +90,7 @@ You should understand Python basics, how it works, manipulation with files, dirs
 You must read the book - **Python for Devops from Noah Gift**.
 
 - Complete the tasks below and you can go further, no need to read the whole book in this part of roadmap. Get familiar with Python and continue reading it.
-    - 1.
+    - 1. 
     - 2. 
  
 ## #3 - SSH
@@ -138,6 +138,11 @@ Watch the playlist below from youtube.
   - Reverse proxy
   - SSL certificates
 - Understading of load balancing 
+- Deploy simple frontend project with nginx (`frontend_sample` directory in repository)
+  - Run project
+  - Proxy a port of the service to the domain (test.roadmap.udevs.io)
+  - Generate ssl certificate for this domain
+  - Track the access logs
 
 ## Skills #5 - IaaC
 
