@@ -40,7 +40,6 @@ and more reliably. The term DevOps was formed by combining the
 - Process management
     - ps
     - top / htop
-    - netstat
     - lsof
     - kill
     - pkill
@@ -61,6 +60,10 @@ and more reliably. The term DevOps was formed by combining the
     - df
     - du
     - ncdu
+- Networking
+    - ping
+    - netstat
+    - nmap
 - Folders
     - /etc
     - /var/log
@@ -84,7 +87,7 @@ and more reliably. The term DevOps was formed by combining the
 
 You should understand Python basics, how it works, manipulation with files, dirs, unix commands and etc.
 
-You must read the book in repo - Python for Devops from 
+You must read the book - **Python for Devops from Noah Gift**.
 
 - Complete the tasks below and you can go further, no need to read the whole book in this part of roadmap. Get familiar with Python and continue reading it.
     - 1.
@@ -92,32 +95,49 @@ You must read the book in repo - Python for Devops from
  
 ## #3 - SSH
 
-- pem files 
+- Generate pem files
+    - Generate ssh key-pair
+    - Copy public key to authorized keys
+    - Save private key as .pem file
 - Generate keys 
-- key file permissions 
+- Key file permissions 
 - Private and public keys 
-- COPY files by ssh scp/ rsync
+    - Understand how they work
+- COPY files by ssh `scp`  and `rsync`
 - Run remote shell script 
 - Connect to database ssh 
-- ssh tunneling
+- SSH tunneling
 
-## Skills #3 - Networking protocols theory
+## #3 - Networking basics
 
 - TCP / IP
 - OSI Model
-- Domains 
+- Domains
+    - DNS
+    - DNS Record types
 - HTTP / HTTPS 
+    - SSL certificates
+    - Generate certificate with certbot and cert-manager
 - FTP
-- Mailiing protocols
+- Mailing protocols
+  - POP
+  - IMAP
+  - SMTP
 - TCP / UDP
+  - Diffirences between them
 
-## Skills #4 - Web server
+Watch the playlist below from youtube.
+
+- [Networking fundamentals](https://www.youtube.com/watch?v=cNwEVYkx2Kk&list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8) from Network Direction channel
+
+## #4 - Web server
 
 - Web server base concepts 
-- config files / logfiles
-- Reverse proxy 
-- HTTPS - certbot 
-- Load balancing
+- Nginx
+  - Config files / logfiles
+  - Reverse proxy
+  - SSL certificates
+- Understading of load balancing 
 
 ## Skills #5 - IaaC
 
