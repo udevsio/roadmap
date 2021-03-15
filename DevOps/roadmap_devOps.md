@@ -79,6 +79,9 @@ and more reliably. The term DevOps was formed by combining the
     - 1
     - 2
 
+### Makefiles
+- Basic understandig of Makefile
+
 ### Books to read
 
 -  Linux Bible last edition
@@ -139,13 +142,59 @@ Watch the playlist below from youtube.
   - SSL certificates
 - Understading of load balancing 
 - Deploy simple frontend project with nginx (`frontend_sample` directory in repository)
-  - Run project
+  - Run project (read Readme.md)
   - Proxy a port of the service to the domain (test.roadmap.udevs.io)
   - Generate ssl certificate for this domain
   - Track the access logs
 
-## Skills #5 - IaaC
+##  #5 - Containerinzation
 
+### Docker
+  - Understanding the main concept of Docker
+    - Images
+    - Containers
+    - Docker daemon
+  - Commands to learn
+    - docker build
+    - docker tag
+    - docker push
+    - docker run
+    - docker pull
+    - docker exec
+    - docker logs
+    - docker volumes
+    - docker inspect
+  - Container registries
+    - Login / Logout
+    - dockerhub
+    - self-hosted registries
+    - Gitlab container registry
+  - Dockerfile
+    - Understanding of Dockerfile
+    - Syntax
+##### Tasks to do:
+  - Create Dockerfiles for sample Go (`go_sample`) and Node.js (`node_sample`) projects, build images and push them to your dockerhub account with `roadmap` tag.
+  - Track the logs by running your image in detached mode.
+
+## #6 Deployment of microservices with docker-compose and docker swarm
+
+### docker-compose
+
+- Understanding the usage of docker-compose
+- docker-compose up / down
+- Port-forwarding
+- Environment variables
+- Networking between containers
+- Build the containers from context and image
+##### Read the docs and try to do below tasks:
+  - Deploy microservices and database with docker-compose:
+    - Try to write docker-compose for simple microservices, database (PSQL) and API gateway in `micro_sample`
+    - Up the docker-compse from images
+    - Connect services to API gateway with Env variables. Check out the config files in microservices.
+    - Expose the API gateway port and check the result from your browser.
+
+### Docker swarm
+  
 - Virtualization / containerinzation 
 - 12 factors 
 - Writing dockerfiles 
