@@ -3,12 +3,14 @@
 1. Install Ubuntu, Learn Linux commands(**Only install Ubuntu. Do not install other Linux distributions**)
 
 2. Install Golang with binary file(**Do not use apt, snap**)
-   Set environment variables in .bash*profile
+   Set environment variables in .bash_profile
+   <br>
    **For example:**
-   \_export GOPATH=$HOME/projects/go
-   export GOROOT=/usr/local/go
-   export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin*
-
+   ```
+      export GOPATH=$HOME/projects/go
+      export GOROOT=/usr/local/go
+      export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+   ```
 3. Syntax (**tour.golang.org**)
 
 4. **_Tasks for syntax_**:
