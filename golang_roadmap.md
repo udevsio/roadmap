@@ -77,3 +77,8 @@
     2. Pull image
     3. Run image
     4. Docker-compose
+18. **_RabbitMQ_**
+    1. Install and run RabbitMQ Docker image
+    2. Declaring a queue
+    3. Publishing a message
+    4. Consuming a message
