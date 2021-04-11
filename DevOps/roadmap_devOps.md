@@ -11,7 +11,7 @@ teams, which historically functioned in siloes.
 ![devops](devops.png)
 
 
-# The roadmap to become Junior DevOps engineer in 
+# The roadmap to become Junior DevOps engineer in Udevs
 
 
 ## #1 - Linux basics
@@ -46,13 +46,16 @@ teams, which historically functioned in siloes.
 - Text manipulation
     - cat
     - grep
-    - vim (vimtutor at least 5 times)
+    - vim
     - unix pipelining 
     - xarg
     - awk
 - File, Dir management
     - rm
+    - touch
+    - mkdir
     - mv
+    - take
     - sed
     - cp
     - ranger
@@ -64,17 +67,23 @@ teams, which historically functioned in siloes.
     - ping
     - netstat
     - nmap
+    - ufw
+    - iptables
 - Folders
     - /etc
     - /var/log
     - /home
     - $PATH
     - aliases ( .zshrc )
+- System
+    - systemctl
+    - service
+    - /etc/system/systemd
   
 ### Shell scripting
 
 - Watch any shell script tutorial on youtube, read articles.
-    - You must know  to write logical functions with above linux commands.
+    - You must know to write logical functions with above linux commands.
 - Try to do below tasks:
     - 1
     - 2
@@ -86,7 +95,7 @@ teams, which historically functioned in siloes.
 
 -  Linux Bible last edition
 
-## #2 Scripting language - Python 3
+## #2 - Scripting language - Python 3
 
 You should understand Python basics, how it works, manipulation with files, dirs, unix commands and etc.
 
@@ -111,7 +120,7 @@ You must read the book - **Python for Devops from Noah Gift**.
 - Connect to database ssh 
 - SSH tunneling
 
-## #3 - Networking basics
+## #4 - Networking basics
 
 - TCP / IP
 - OSI Model
@@ -146,6 +155,7 @@ Watch the playlist below from youtube.
   - Proxy a port of the service to the domain (test.roadmap.udevs.io)
   - Generate ssl certificate for this domain
   - Track the access logs
+  - Delete certificate and stop your web server
 
 ##  #5 - Containerinzation
 
@@ -176,7 +186,10 @@ Watch the playlist below from youtube.
   - Create Dockerfiles for sample Go (`go_sample`) and Node.js (`node_sample`) projects, build images and push them to your dockerhub account with `roadmap` tag.
   - Track the logs by running your image in detached mode.
 
-## #6 Deployment of microservices with docker-compose and docker swarm
+## Deployment of microservices with docker-compose and docker swarm
+
+- Read about 12 factors - https://12factor.net/
+- Epub version - https://12factor.net/12factor.epub
 
 ### docker-compose
 
@@ -194,76 +207,108 @@ Watch the playlist below from youtube.
     - Expose the API gateway port and check the result from your browser.
 
 ### Docker swarm
+
+- Understanding usage of docker swarm 
+  - worker and manager nodes
+  - services and replication
+  - docker stack
+  - docker service
+
+##### Tasks to do:
+  - Initialize manager node and join 2 worker nodes.
+    - You can do it with vmware or virtualbox
+    - If you can not do it, just work with manager node
+  - Deploy `micro_sample` to your swarm as roadmap stack.
+  - Replicate the services up to 3 (if you have worker nodes)
+  - Update one of the services in manager node
+    - Service should be updated in all nodes
+  - Inspect and rollback that service
+  - Track the logs of the service
+  - Remove the services and deinitialize your swarm
   
-- Virtualization / containerinzation 
-- 12 factors 
-- Writing dockerfiles 
-- docker images: 
-    - build 
-    - pull 
-    - push
-    - registry login / logout 
-- Containers 
-    - run 
-    - logs 
-    - volumes 
-    - inspect 
-    - execute into container 
-    - run from image 
-- Networking
-- docker-compose 
-    - write 
-    - build 
-    - docker compose service discovery 
-    - docker compose up / down 
-- Swarm / Kubernetes 
-    - kubernetes theory 
-    - service concept
-    - service discovery
-    - stack 
-    - stack deploy 
-    - inspect service 
-    - service update (add env, remove env, update image, —with registry auth) 
-    - service rollback 
-    - scaling (theory)
 
-## Skills #6 - CI
+## #6 Cloud services
 
-- Pipeline tasks (migrations, build, test, code analyse and etc) 
-- Builing docker image in docker. Using and theory 
-- Working with registry push/pull/ login/logout 
-- CI/ CD
+### DigitalOcean
 
-## Skills #7 - Monitoring
+- Droplets
+  - Resizing
+  - Taking snapshots
+  - Creating one from snapshot
+- Kubernetes clusters
+- Load balancers
+- VPC
+- Firewall
 
-- Monitoing theoury. Pull, push  models 
-- Prometheus exporters 
-- Prometheus Query Language 
-- Using Grafana 
-- Alerts
+## #7 CI / CD
 
-## Skills #8 - Log management
+- Gitlab server administration
+  - Gitlab Admin area
+  - Monitoring the server
+  - Gitlab container registry
+  - Gitlab API for scripts
+- Gitlab CI
+  - gitlab runners
+  - .gitlab-ci.yml 
+  - syntax and concepts
+  - pipeline tasks
+    - build
+    - test
+    - migrate
+    - analysis
+    - deployment to environments
+- Deployment types theory
+  - Blue green
+  - Canary
+- Rollbacks
 
-- Logging format, how to log application, properly 
-- Log parsing fluentbit, elastic beats 
-- Elastic search 
-- Kibana
+## #8 Kubernetes
 
-## Skills #9 - Cloud
+- Understading the main concepts and basics
+  - contexts
+  - namespaces
+  - pods
+  - replicasets
+  - deployments / statefulsets
+  - services (all types)
+  - ingresses
+  - configmaps
+  - secrets
+  - service accounts
+  - cluster bindings
+  - kubectl
+  - etc
+- Node and pod affinity
+- Writing the manifests for microservice architecture 
+- Load Balancing with Nginx ingress controller
+- Understanding the concepts of a service mesh and istio
 
-- AWS
-- IAM 
-- EC2
-- S3 
-- RDS 
-- LAMBDA / Serverless 
-- Cloud registries 
-- Elastic Beanstalk 
-- Virtual private cloud (Amazon)
-- VDS/VPS hypervisor
+### Tasks to do
+- Deploy `micro_sample` to minikube cluster with load balancer
+  - Write deployment and service manifests for each service
+  - Configure env variables with configmaps and secrets
+  - Deploy services on `microservices` namespace
+  - Deploy your load balancer on `lb` namespace
+  - Write ingress manifest for API gateway
 
 
-##### Besides, all of this above, you should totally understand version control system (Git).
+## #9 Monitoring and Centralized logging
+
+- Grafana 
+- Prometheus
+  - PMQL
+  - Alertmanager
+  - Alerts and rules
+  - Forwarding alerts to Telegram groups, email
+- Loki
+- Fluentd and promtail
+  - Scraping container logs
 
 
-##### Good luck!
+## #10 IaaC
+
+- Understading the IaaC
+- Terraform
+  - Theory and main usage
+- Ansible
+  - Theory and main usage

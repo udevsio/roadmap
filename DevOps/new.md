@@ -66,14 +66,6 @@ PBL -> project base learning
 
 
 
-Junior -> Should know everything above,  50%, can ask
-
-Strong Junior -> Can change templates, 75%
-
-Middle -> Can create templates, 100% 
-
-Strong Middle -> New technologies
-
 
 
 # New Things to learn and do
