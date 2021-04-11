@@ -4,9 +4,9 @@ DevOps is a set of practices that works to automate and
 integrate the processes between software development and IT 
 teams, so they can build, test, and release software faster 
 and more reliably. The term DevOps was formed by combining the
- words “development” and “operations” and signifies a cultural 
- shift that bridges the gap between development and operation 
- teams, which historically functioned in siloes.
+words “development” and “operations” and signifies a cultural 
+shift that bridges the gap between development and operation 
+teams, which historically functioned in siloes.
  
 ![devops](devops.png)
 
