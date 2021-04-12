@@ -257,7 +257,7 @@ Watch the playlist below from youtube.
     - migrate
     - analysis
     - deployment to environments
-- Deployment types theory
+- Deployment types theory-> ( https://github.com/ContainerSolutions/k8s-deployment-strategies )
   - Blue green
   - Canary
 - Rollbacks
