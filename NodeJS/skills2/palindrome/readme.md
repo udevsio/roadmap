@@ -1,4 +1,4 @@
-# Map Numbers into JSON
+# Palindrome problem
 
 Write a program that checks if given input word is palindrome.
 
