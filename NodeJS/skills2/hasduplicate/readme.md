@@ -6,7 +6,7 @@ Let's give an example
 
 ```
 Given: [1, 2, 1, 3, 4]
-Ouput: [2, 3, 4]
+Ouput: [1, 2, 3, 4]
 ```
 
 ### INFO
