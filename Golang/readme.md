@@ -41,6 +41,7 @@
    10. Revert, reset
 
 7. **_Struct in Golang_**:
+      **Description:** *You need to create struct and define methods on this struct. Methods should be create, update, get, getAll and delete(CRUD). Data can be stored in memory.*
 
    1. Contact list
    2. Task list
