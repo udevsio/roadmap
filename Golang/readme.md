@@ -45,7 +45,12 @@
    *Description: You need to create struct and define methods on this struct. Methods should be create, update, get, getAll and delete   (CRUD). Data can be stored in memory.*
 
    1. Contact list
+
+   _Fields_: ID, FirstName, LastName, Phone, Email, Position.
+
    2. Task list
+
+   _Fields_: ID, Name, Status, Priority, CreatedAt, CreatedBy, DueDate.
 
 8. **_Unit Tests in Golang_**
 
