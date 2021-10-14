@@ -33,9 +33,16 @@
 - File Storage ⇒ [https://medium.com/kick-start-fluttering/saving-data-to-local-storage-in-flutter-e20d973d88fa](https://medium.com/kick-start-fluttering/saving-data-to-local-storage-in-flutter-e20d973d88fa)
 - Sqlite (moor) ⇒ [https://www.youtube.com/watch?v=zpWsedYMczM](https://www.youtube.com/watch?v=zpWsedYMczM)
 
-**Data & backend** 
 
-[State management](https://www.notion.so/State-management-d24dbf8fb10c4643bd67116c5c8da76a)
+**State management** 
+[https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro](https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro)
+
+1. Provider ⇒ [https://www.youtube.com/watch?v=MkFjtCov62g](https://www.youtube.com/watch?v=MkFjtCov62g)
+2. setState
+3. BLoC / Rx ⇒ [https://www.youtube.com/watch?v=THCkkQ-V1-8](https://www.youtube.com/watch?v=THCkkQ-V1-8)
+4. GetX ⇒ [https://www.youtube.com/watch?v=ZnevdXDH25Q](https://www.youtube.com/watch?v=ZnevdXDH25Q)
+
+**Data & backend** 
 
 - Networking & http⇒[https://flutter.dev/docs/development/data-and-backend/networking](https://flutter.dev/docs/development/data-and-backend/networking)
 - Dio ⇒ [https://medium.com/@ashmikattel/dio-in-flutter-ad6ba26aee36](https://medium.com/@ashmikattel/dio-in-flutter-ad6ba26aee36)
@@ -45,7 +52,8 @@
 
 **Accessibility & Internationalizing**
 
-[Accessibility & Internationalizing](https://www.notion.so/Accessibility-Internationalizing-b5ffd9366fbd4e04af3b8e1c4014c412)
+- Accessibility ⇒ [https://flutter.dev/docs/development/accessibility-and-localization/accessibility](https://flutter.dev/docs/development/accessibility-and-localization/accessibility)
+- Internationalizing ⇒ [https://flutter.dev/docs/development/accessibility-and-localization/internationalization](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
 
 **Platform integtarion**
 
